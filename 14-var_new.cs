@@ -23,7 +23,7 @@ namespace CSharpStudy.source
                            {
                                Title = "Phonograph",
                                YearOfPublication = " 1877"
-                           };
+                           }; // new를 사용해서 새로운 인스턴스를 형성할 수 있다.
 
             System.Console.WriteLine(
                       $"{patent1.Title} ({patent1.YearOfPublication})");

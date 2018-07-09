@@ -12,7 +12,7 @@ namespace CSharpStudy.source
         {
             System.Console.WriteLine('\'');
             System.Console.WriteLine('\u003A');
-            System.Console.WriteLine('\u0029');
+            System.Console.WriteLine('\u0029'); //unicode
         }
     }
 }

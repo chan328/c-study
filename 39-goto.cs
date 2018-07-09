@@ -20,7 +20,7 @@ namespace CSharpStudy.source
                     case "\out":
                         isOut = true;
                         isFilt = false;
-                        goto default;
+                        goto default; // 원하는 곳으로 이동
                     case "\f":
                         isFilt = true;
                         isOut = false;

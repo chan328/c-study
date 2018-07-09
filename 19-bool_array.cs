@@ -11,7 +11,7 @@ namespace CSharpStudy.source
         static void Main()
         {
             bool[,,] cells;
-            cells = new bool[2, 3, 3]
+            cells = new bool[2, 3, 3] // 3차원 배열 3 x 3짜리 배열이 2개!
             {
                 {
                     {true, false, false },

@@ -25,7 +25,7 @@ namespace CSharpStudy.source
                 if ((mask & playerPostion[0]) == mask)
                 {
                     winner = 1;
-                    break;
+                    break; // 사용시 foreach문 탈출!
                 }
                 else if ((mask & playerPostion[1]) == mask)
                 {

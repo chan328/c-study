@@ -17,7 +17,7 @@ namespace CSharpStudy.source
             System.Console.Write("integer를 입력하세요");
             value = (ulong)long.Parse(System.Console.ReadLine());
 
-            ulong mask = 1UL << size - 1;
+            ulong mask = 1UL << size - 1; // <<, >> 등을 사용시 비트단위로 연산을 한다.
             for (int count = 0; count < size; count++)
             {
                 bit = ((mask & value) != 0) ? '1' : '0';

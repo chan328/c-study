@@ -25,7 +25,7 @@ namespace CSharpStudy.source
             num4 = num1 % num2;
 
             System.Console.WriteLine(
-                $"{num1} % {num2} = {num3} +나머지 ==> {num4}"
+                $"{num1} % {num2} = {num3} +나머지 ==> {num4}" // 람다식 : 변수를 더 간단하게 표현.
                 );
         }
     }

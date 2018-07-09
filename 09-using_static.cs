@@ -8,7 +8,7 @@ namespace CSharpStudy.source
 {
     class Class1
     {
-        static void Main()
+        static void Main() // static(정적 클래스)를 사용하면 변수에 대해서만 작동한다.
         {
             string firstName;
             string lastName;

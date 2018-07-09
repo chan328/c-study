@@ -13,7 +13,7 @@ namespace CSharpStudy.source
             short windspeed = 42;
             System.Console.WriteLine(
                 "현재 바람이" + "대전에서는" + windspeed + "mile/hour로 불고 있습니다."
-                );
+                ); // + 이름을 쓰면 출력시 변수의 값이 들어감.
         }
     }
 }

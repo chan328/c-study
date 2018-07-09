@@ -11,7 +11,7 @@ namespace CSharpStudy.source
         static void Main()
         {
             System.Console.Write
-                ("\"Truly, you have a dizzying intellect. \"");
+                ("\"Truly, you have a dizzying intellect. \""); // \n을 사용하면 줄바꿈을 해줌.
             System.Console.Write("\n\"Wait 'til I get going!\"\n");
         }
     }

@@ -19,8 +19,8 @@ namespace CSharpStudy.source
             System.Console.WriteLine(miracleMax);
             System.Console.WriteLine(valerie);
 
-            Max = "It would take miracle";
-            System.Console.WriteLine(miracleMax);
+            Max = "It would take miracle"; // 변수의 값을 바꿔줌
+            System.Console.WriteLine(miracleMax); // 바꾼 변수의 값을 출력
         }
     }
 }

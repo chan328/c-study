@@ -20,7 +20,7 @@ namespace CSharpStudy.source
                 unicodeValue = current;
                 System.Console.Write($"{current} = {unicodeValue}\t");
                 current--;
-            } while (current >= 'a');
+            } while (current >= 'a'); // do while문 : while문 안의 내용을 한번 실행하고 조건문 검사
         }
     }
 }

@@ -11,7 +11,7 @@ namespace CSharpStudy.source
         static void Main()
         {
             int[] arr = { 1, 3, 2, 4, 5, 6, 8, 7 };
-            System.Array.Sort(arr);
+            System.Array.Sort(arr); // 배열을 정렬해주는 함수다.
             foreach (var value in arr)
             {
                 Console.WriteLine("정렬 배열 - {0}", value);

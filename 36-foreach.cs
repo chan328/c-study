@@ -18,7 +18,7 @@ namespace CSharpStudy.source
             System.Console.Write(
                 "The available moves are as follows: ");
 
-            foreach (char cell in cells)
+            foreach (char cell in cells) // 변수 in 배열
             {
                 if (cell != '0' && cell != 'X')
                 {

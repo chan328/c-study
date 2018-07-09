@@ -10,12 +10,12 @@ namespace CSharpStudy.source
     {
         static void Main()
         {
-            System.Console.WriteLine(@"begin
+            System.Console.WriteLine(@"begin  
                 ^--^                
                 |''|
                 ____
 end
-                ");
+                "); // @""를 사용하면 입력한 그대로의 모습이 출력된다.
         }
     }
 }

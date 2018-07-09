@@ -17,7 +17,7 @@ namespace CSharpStudy.source
 
             System.Console.WriteLine(
                 $"ther palindrome \" {palindrome} \"is"
-                + $" {palindrome.Length} characters."
+                + $" {palindrome.Length} characters." // .length를 뒤에 붙이면 .length 앞의 변수의 길이를 재줌.
                 );
         }
     }

@@ -16,13 +16,13 @@ namespace CSharpStudy.source
             System.Console.WriteLine("Hey you!");
 
             System.Console.Write("Enter your first name :");
-            firstName = System.Console.ReadLine();
+            firstName = System.Console.ReadLine(); //string형 변수인 firstName 을 console.ReadLine();으로 읽어줌.
 
             System.Console.Write("Enter your last name:");
             lastName = System.Console.ReadLine();
 
             System.Console.WriteLine( $"your full name is { firstName } { lastName }." );
-            System.Console.WriteLine( "your full name is " + firstName + " " + lastName );
+            System.Console.WriteLine( "your full name is " + firstName + " " + lastName ); //출력의 여러 방법들.
             System.Console.WriteLine(String.Format("your full name is {0} {1}.", firstName, lastName));
             // printf("your full name is %s %s", %(firstName, lastName);
         }

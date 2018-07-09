@@ -10,11 +10,11 @@ namespace CSharpStudy.source
     {
         static void Main()
         {
-            string max;
+            string max; //문자열 변수 선언
 
-            max = "Hello World";
+            max = "Hello World"; //변수에 값을 넣어줌
 
-            System.Console.WriteLine(max);
+            System.Console.WriteLine(max); //변수 출력
         }
     }
 }
