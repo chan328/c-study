@@ -22,7 +22,12 @@ namespace CSharpStudy.source.boj
             {
                 Console.WriteLine("임의의 예외가 있습니다.");
             }
-            catch
+            catch (Exception exception)
+            {
+                Console.WriteLine("unexcept error");
+            }
+
+            Console.WriteLine("종료중");
 
         }
     }
