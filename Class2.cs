@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy.source
 {
-    class Class1
+    class Class2
     {
-        static void Main(string[] args) 
-        {
-            Point pt1 = new Poin1();
-        }
     }
 }
