@@ -8,5 +8,9 @@ namespace CSharpStudy.source
 {
     class Class1
     {
+        static void Main(string[] args) 
+        {
+            Point pt1 = new Poin1();
+        }
     }
 }

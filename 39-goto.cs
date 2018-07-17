@@ -17,7 +17,7 @@ namespace CSharpStudy.source
             {
                 switch (option)
                 {
-                    case "\out":
+                    case "out":
                         isOut = true;
                         isFilt = false;
                         goto default; // 원하는 곳으로 이동
